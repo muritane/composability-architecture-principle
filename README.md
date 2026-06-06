@@ -1,12 +1,12 @@
 # The Composability Architecture Principle
 
-## A Structural Theory of Reusable Abstractions, Layer Formation, and Emergence
+## A Structural Theory of Reusable Participants, Layer Formation, and Emergence
 
 ---
 
 # Abstract
 
-Reality contains countless persistent patterns.
+Reality contains innumerable persistent patterns.
 
 Clouds persist.
 
@@ -14,7 +14,7 @@ Waves persist.
 
 Vortices persist.
 
-Yet higher-order architectures are not systematically built from clouds, waves, or vortices.
+Yet higher-order architectures are rarely constructed from clouds, waves, or vortices.
 
 By contrast:
 
@@ -26,15 +26,15 @@ By contrast:
 
 Persistence alone is insufficient.
 
-The distinguishing property is not merely stability, but composability.
+The distinguishing property is not merely stability but composability.
 
-A pattern becomes a reusable building block when it forms a stable abstraction whose identity survives relevant transformations, whose participation survives interaction, whose interfaces support compatible composition, and whose existence is repeatedly reachable by system dynamics.
+A pattern becomes architecturally significant when it becomes a reusable participant: a stable abstraction whose identity survives relevant variation, whose participation survives interaction, whose interfaces support compatible composition, and whose existence is repeatedly discoverable by system dynamics.
 
 The central claim of this principle is:
 
-> Emergence is the formation of reusable abstractions and the expansion of composition space.
+> Emergence is the formation of reusable participants and the expansion of composition space.
 
-Higher-order layers arise when populations of reusable abstractions become sufficiently interoperable and generative processes continually discover and stabilize new compositions among them.
+Higher-order layers arise when populations of reusable participants become sufficiently interoperable, sufficiently discoverable, and sufficiently self-stabilizing that new compositions accumulate faster than they disappear.
 
 ---
 
@@ -50,11 +50,11 @@ denote a state space.
 
 A system consists of:
 
-* a set of possible states,
+* possible states
 
 P = {p₁,p₂,...}
 
-* a transition relation,
+* a transition relation
 
 T ⊆ P × P
 
@@ -84,7 +84,7 @@ Most patterns are transient.
 
 Some persist.
 
-Only a subset become reusable participants in larger constructions.
+Only a subset become reusable building blocks.
 
 The central problem is explaining the transition:
 
@@ -104,7 +104,7 @@ D : P → E
 
 be a recognition mapping.
 
-States belong to the same abstraction whenever distinctions irrelevant to some level are ignored.
+Two states belong to the same abstraction whenever distinctions irrelevant to some level are ignored.
 
 Formally:
 
@@ -137,11 +137,11 @@ Examples:
 * cloud shapes,
 * arbitrary classifications.
 
-They may be useful descriptions while contributing little to further composition.
+They may summarize reality without affecting its future organization.
 
 ### Active Abstractions
 
-Active abstractions participate in generating or maintaining additional abstractions.
+Active abstractions participate in generating, maintaining, or constraining other abstractions.
 
 Examples:
 
@@ -149,20 +149,22 @@ Examples:
 * genes,
 * words,
 * contracts,
-* corporations,
+* firms,
 * scientific theories.
 
-Removing active abstractions alters the architecture built upon them.
+Active abstractions influence the architecture built from them.
 
-The primary concern of this theory is active abstractions.
+The theory is primarily concerned with active abstractions.
 
 ---
 
-# 3. Reusable Participants
+# 3. Participants
 
-Not every abstraction becomes a building block.
+Not every active abstraction becomes a reusable building block.
 
-A reusable participant is an abstraction capable of repeated participation in larger constructions.
+A participant is an active abstraction capable of participating in system organization.
+
+A reusable participant is a participant capable of repeated participation in multiple constructions.
 
 Reusable participants constitute the elementary units of compositional architectures.
 
@@ -182,7 +184,7 @@ C
 
 denote system constraints.
 
-An abstraction e is admissible when:
+A participant e is admissible when:
 
 e ∈ A(C)
 
@@ -198,43 +200,63 @@ Examples:
 * cells under chemistry,
 * firms under legal systems.
 
-Admissibility determines what may stably exist.
+Admissibility determines what can exist.
 
 ---
 
-# 5. Reachability
+# 5. Discoverability
 
 Admissibility alone is insufficient.
 
-Many admissible structures may never arise.
+Many admissible structures never meaningfully appear.
 
 Let
 
-Rch(e)
+Disc(e)
 
-denote the probability that system trajectories encounter abstraction e.
+denote the probability that system trajectories discover e.
 
-Reachability depends on:
+Discoverability depends on:
 
-* available resources,
+* resources,
 * energy flows,
-* environmental conditions,
-* historical pathways.
+* historical pathways,
+* search mechanisms,
+* environmental structure.
 
-Examples:
+An admissible participant that is never discovered is architecturally irrelevant.
 
-* oxygen is abundant because stellar dynamics repeatedly generate it,
-* carbon chemistry is common because physical processes continually produce carbon-rich environments.
-
-An abstraction can be admissible but architecturally irrelevant if trajectories rarely reach it.
+Architecture depends not only on what can exist but on what can be found.
 
 ---
 
-# 6. Operational Distinction
+# 6. Convergence
+
+Some regions of state space are repeatedly discovered.
+
+Let
+
+Attr
+
+denote attractors of system dynamics.
+
+Participants near strong attractors emerge repeatedly.
+
+Examples:
+
+* stellar processes generate heavy elements,
+* chemistry repeatedly generates certain molecular motifs,
+* social interaction repeatedly generates language.
+
+Convergence explains why some participants dominate architectures despite vast theoretical alternatives.
+
+---
+
+# 7. Operational Distinction
 
 ## Definition
 
-An abstraction must remain identifiable under admissible variation.
+A participant must remain identifiable under admissible variation.
 
 Operational distinction exists when transformations preserving relevant behavior also preserve identity.
 
@@ -251,23 +273,15 @@ Operational distinction provides:
 * addressability,
 * reuse.
 
-Information-theoretically:
-
-identity survives noise.
-
-Dynamically:
-
-identity survives variation.
-
-Without distinction there is no reusable participant.
+Without distinction there can be no reusable participant.
 
 ---
 
-# 7. Compositional Closure
+# 8. Compositional Closure
 
 ## Definition
 
-An abstraction must survive participation.
+A participant must survive participation.
 
 Let
 
@@ -275,11 +289,11 @@ N(e)
 
 denote admissible interactions involving e.
 
-Closure exists when participation preserves continued usability.
+Compositional closure exists when participation preserves future usability.
 
 Informally:
 
-the abstraction remains available after interaction.
+the participant remains available after interaction.
 
 Examples:
 
@@ -292,23 +306,21 @@ Examples:
 
 ## Preservation Principle
 
-Operational distinction and compositional closure are both preservation principles.
+Operational distinction and compositional closure are complementary preservation principles.
 
-Operational distinction concerns preservation under variation.
+Operational distinction preserves identity under variation.
 
-Compositional closure concerns preservation under interaction.
+Compositional closure preserves identity under interaction.
 
-Together they create reusable entities.
-
-Without preservation there can be no architecture.
+Together they create reusable participants.
 
 ---
 
-# 8. Interfaces
+# 9. Interfaces
 
 ## Definition
 
-An interface is the abstraction boundary through which an entity participates in interactions.
+An interface is the boundary through which a participant interacts.
 
 Let
 
@@ -329,7 +341,7 @@ Examples:
 
 * chemical valence,
 * cellular signaling,
-* language,
+* grammar,
 * software APIs,
 * legal procedures.
 
@@ -337,7 +349,7 @@ Interfaces transform organization into participation.
 
 ---
 
-# 9. Compatibility
+# 10. Compatibility
 
 Interfaces alone do not create composition.
 
@@ -345,47 +357,40 @@ Composition requires compatibility.
 
 Let
 
-Comp(e₁,e₂)
+Comp(e₁,e₂,...)
 
-denote interface compatibility.
+denote compatibility among participants.
 
-Composition is possible only when:
-
-Comp(e₁,e₂) > 0
+Compatibility determines whether interaction can produce stable organization.
 
 Examples:
 
 * chemical bonding rules,
-* grammar,
 * communication protocols,
+* grammar,
 * legal standards.
 
-Architectural growth often results more from increasing compatibility than from improving individual entities.
+Architectural growth often results more from increasing compatibility than from improving individual participants.
 
-Standardization enlarges composition space.
+Standardization expands composition space.
 
 ---
 
-# 10. Composability
+# 11. Composability
 
-An abstraction is composable when it is:
+A reusable participant is composable when it is:
 
 * admissible,
-* reachable,
+* discoverable,
 * operationally distinct,
 * compositionally closed,
 * interface-compatible.
-
-Formally:
-
-Composability =
-A ∩ Rch ∩ D ∩ C ∩ Comp
 
 Composability is the capacity for repeated participation in valid constructions.
 
 ---
 
-# 11. Composition Space
+# 12. Composition Space
 
 ## Definition
 
@@ -397,57 +402,37 @@ denote a population of reusable participants.
 
 Let
 
-E
+R
 
-denote compatibility relations.
+denote admissible composition relations.
 
-The resulting graph:
+Composition space is the set of all reachable constructions generated from V under R.
 
-G = (V,E)
+Composition space represents what a layer can build.
 
-defines composition space.
-
-Nodes represent reusable participants.
-
-Edges represent admissible compositions.
-
-Composition space represents all reachable constructions available to a layer.
-
-Emergence corresponds to expansion of this space.
+Its size and structure determine the creative potential of the layer.
 
 ---
 
-# 12. Populations
+# 13. Populations
 
-A single composable participant does not create a layer.
+A single participant does not create a layer.
 
 Layers arise from populations.
-
----
 
 ## P1. Multiplicity
 
 Composition requires multiple participants.
 
-A solitary participant cannot generate architecture.
-
----
-
 ## P2. Interoperability
 
 Interoperability is average compatibility across a population.
 
-Higher interoperability enlarges composition space.
-
----
+Greater interoperability expands composition space.
 
 ## P3. Interaction Density
 
-Let
-
-λ
-
-denote interaction frequency.
+Let λ denote interaction frequency.
 
 Below critical thresholds:
 
@@ -457,60 +442,17 @@ Above critical thresholds:
 
 compositions become self-reinforcing.
 
-Many layer transitions occur through increases in λ.
-
----
-
 ## P4. Redundancy
 
-Many abstractions are stabilized populations rather than isolated entities.
-
-Examples:
-
-* organisms,
-* memories,
-* markets,
-* institutions.
+Many stable participants are maintained by populations rather than individuals.
 
 Redundancy suppresses lower-level noise.
 
 ---
 
-# 13. Convergence
-
-Not all admissible abstractions appear equally often.
-
-Dynamics frequently funnel trajectories toward particular regions of state space.
-
-Let
-
-Attr
-
-denote attractors of system dynamics.
-
-Abstractions near strong attractors emerge repeatedly.
-
-Examples:
-
-* stars generate heavy elements,
-* chemistry repeatedly generates certain molecular structures,
-* social interaction repeatedly generates language.
-
-Convergence explains why some abstractions dominate architectures despite many theoretical alternatives.
-
----
-
 # 14. Search and Selection
 
-Composability determines what can be built.
-
-Reachability determines what can be found.
-
-Search determines what is explored.
-
-Selection determines what persists.
-
----
+Architecture grows through exploration and retention.
 
 ## Search
 
@@ -523,9 +465,7 @@ Examples:
 * experimentation,
 * innovation.
 
-Search converts latent possibilities into candidate constructions.
-
----
+Search transforms latent possibilities into candidate constructions.
 
 ## Selection
 
@@ -544,50 +484,67 @@ Selection determines persistence.
 
 ## Generativity
 
-Generativity is the combined capacity of search and selection to discover and stabilize new reusable participants and compositions.
+Generativity is the combined capacity of search and selection to discover and stabilize new participants and compositions.
 
 ---
 
-# 15. Minimal Viable Participants
+# 15. Feedback Stabilization
+
+Emergence is strengthened when higher-order structures alter conditions supporting their own existence.
+
+Examples:
+
+* cells regulate chemistry,
+* organisms regulate cells,
+* ecosystems regulate environments,
+* institutions regulate individuals,
+* languages shape cognition.
+
+A layer becomes durable when it contributes to preserving the participants from which it is constructed.
+
+Feedback stabilization transforms emergence into persistence.
+
+---
+
+# 16. Minimal Viable Participants
 
 Every layer possesses operationally minimal participants.
-
-Minimality is defined relative to participation.
 
 A participant is minimally viable when:
 
 * it satisfies composability requirements,
-* it participates directly in layer operations,
+* it directly participates in layer operations,
 * further decomposition destroys participation within that layer.
 
 Minimality is operational rather than absolute.
 
 ---
 
-# 16. Layer Formation
+# 17. Layer Formation
 
 ## Definition
 
-A layer is a state space whose primary participants are reusable abstractions.
+A layer is a state space whose effective variables are reusable participants.
 
 A layer exists when:
 
 1. reusable participants exist,
-2. reachability is sufficient,
+2. discoverability is sufficient,
 3. interoperability is sufficient,
-4. interaction density exceeds threshold,
+4. interaction density exceeds critical thresholds,
 5. reusable compositions accumulate,
-6. generative processes continually discover and stabilize new compositions.
+6. generative processes continually discover new compositions,
+7. feedback stabilization preserves the resulting architecture.
 
 Layer formation is a compositional phase transition.
 
 ---
 
-# 17. Emergence
+# 18. Emergence
 
 ## E1. Emergence as Participant Formation
 
-Emergence occurs when lower-level dynamics produce new reusable participants.
+Emergence occurs when lower-level dynamics generate new reusable participants.
 
 Examples:
 
@@ -636,15 +593,15 @@ Emergence creates new participation boundaries.
 
 ## E4. Emergence as Architectural Coarse-Graining
 
-Higher layers arise through repeated aggregation and stabilization.
+Higher layers arise through aggregation and stabilization.
 
-Many lower-level details become irrelevant.
+Lower-level details become increasingly irrelevant.
 
 Reusable participants become the effective variables of a new layer.
 
 ---
 
-# 18. Capability
+# 19. Capability
 
 Capability is structured reachability within composition space.
 
@@ -658,34 +615,34 @@ Capability is the subset of targets reliably reachable through admissible compos
 
 Capability grows with:
 
-Capability ∝
-Composability × Interoperability × Generativity
+Capability ∝ Composability × Interoperability × Generativity
 
-Capability expands through recombination of reusable participants.
+Capability expands primarily through recombination of reusable participants.
 
 ---
 
-# 19. Knowledge
+# 20. Knowledge
 
 Knowledge consists of identifying:
 
 * admissibility conditions,
-* reachability conditions,
+* discoverability conditions,
 * attractors,
 * invariances,
 * closures,
 * interfaces,
 * compatibilities,
-* search processes,
-* selection mechanisms.
+* search mechanisms,
+* selection mechanisms,
+* stabilization mechanisms.
 
-Scientific progress often corresponds to discovering reusable participants and the rules governing their composition.
+Scientific progress frequently corresponds to discovering reusable participants and the principles governing their composition.
 
 ---
 
-# 20. Recursive Principle
+# 21. Recursive Principle
 
-Every explanation is itself a reusable abstraction.
+Every explanation is itself a reusable participant.
 
 Including:
 
@@ -698,15 +655,15 @@ Including:
 For any participant ask:
 
 1. What constraints admit it?
-2. What trajectories reach it?
+2. What processes discover it?
 3. What attractors favor it?
 4. What invariances distinguish it?
 5. What preserves it under interaction?
 6. What interfaces does it expose?
 7. What compatibilities govern it?
-8. What searches discover it?
+8. What searches generate it?
 9. What selections preserve it?
-10. What architectures can be built from it?
+10. What higher architectures can be built from it?
 
 ---
 
@@ -714,12 +671,12 @@ For any participant ask:
 
 Reality develops through the formation of reusable participants.
 
-A pattern becomes a building block when it forms an admissible and reachable abstraction whose identity survives variation, whose participation survives interaction, and whose interfaces support compatible composition.
+A pattern becomes architecturally significant when it becomes a discoverable and admissible abstraction whose identity survives variation, whose participation survives interaction, and whose interfaces support compatible composition.
 
-Architectural growth occurs when populations of such participants accumulate and generative processes continually discover and stabilize new compositions among them.
+Architectural growth occurs when populations of reusable participants accumulate and generative processes continually discover, stabilize, and recombine them.
 
 Emergence is the formation of reusable participants and the expansion of composition space.
 
-Layer formation is the accumulation of reusable compositions.
+Layer formation is the accumulation of reusable compositions and the stabilization of the architectures they create.
 
-Knowledge advances through discovering the abstractions that make composability possible and the dynamics that repeatedly bring them into existence.
+Knowledge advances through discovering the participants that make composability possible and the dynamics that repeatedly bring them into existence.
