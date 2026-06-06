@@ -1,658 +1,646 @@
 # The Composability Architecture Principle
 
-## A Structural Theory of Admissibility, Distinction, Closure, Interface, Interoperability, and Layer Formation
+## A Structural Theory of Reusable Entities, Layer Formation, and Emergence
 
 ---
 
-# Motivation
+# Abstract
 
-Not every stable pattern becomes a building block.
+Not all persistent patterns become building blocks.
 
-Many patterns persist.
-
-Few become reusable components.
+Many structures remain stable while failing to support higher-order organization.
 
 Clouds persist.
 
 Waves persist.
 
-Turbulence persists.
+Turbulent vortices persist.
 
-Traffic jams persist.
-
-Whirlpools persist.
-
-Yet chemistry is not built from clouds.
-
-Biology is not built from waves.
-
-Civilizations are not built from whirlpools.
+Yet chemistry is not constructed from clouds, nor biology from waves.
 
 By contrast:
 
-Atoms become building blocks.
+* atoms support chemistry,
+* molecules support biology,
+* symbols support language,
+* institutions support civilizations.
 
-Molecules become building blocks.
+The distinguishing feature is not persistence alone but composability.
 
-Cells become building blocks.
+This principle proposes that a pattern becomes a reusable component when it satisfies four structural conditions:
 
-Symbols become building blocks.
+1. admissibility,
+2. distinction,
+3. closure,
+4. interface.
 
-Institutions become building blocks.
+Higher-order layers emerge when sufficiently large populations of interoperable components become available for systematic composition.
 
-The central question is therefore:
+The central claim is:
 
-**What transforms a stable pattern into a reusable component capable of supporting higher-order organization?**
-
-Persistence alone is insufficient.
-
-Many stable patterns never become reusable.
-
-To participate in larger architectures, a pattern must possess structural properties that permit reliable composition.
-
-The central claim of this principle is:
-
-> Reality develops through the formation of composable entities. A pattern becomes a reusable building block when it is admissible, distinguishable, sufficiently closed to preserve its identity, and equipped with stable interfaces through which other entities may reliably interact with it. Higher-order layers emerge when sufficiently large populations of interoperable components become available for systematic composition.
+> Emergence is the appearance of new composable entities.
 
 ---
 
-# Primitive Ontological Commitments
+# 1. Primitive Framework
+
+## 1.1 State Spaces
+
+Let
+
+P
+
+denote a state space.
+
+A system consists of:
+
+* a set of possible states
+
+[
+P = {p_1,p_2,\dots}
+]
+
+and
+
+* a transition relation
+
+[
+T : P \rightarrow P
+]
+
+or more generally
+
+[
+T \subseteq P \times P.
+]
+
+Dynamics are sequences of states connected by admissible transitions.
+
+Without state spaces there is no configuration.
+
+Without transitions there is no change.
 
 ---
 
-## O1. Reality Contains State Spaces
+## 1.2 Patterns
 
-Every system possesses:
+A pattern is any identifiable regularity over states or trajectories.
 
-* possible states
-* possible transitions
+Examples include:
 
-Let:
+* physical structures,
+* dynamical attractors,
+* information-bearing representations,
+* organizations.
 
-P = state space
+Patterns need not persist.
 
-Without state spaces there can be no dynamics.
+Most disappear.
 
-Without transitions there can be no change.
+Some remain stable.
 
----
-
-## O2. Not All Patterns Persist
-
-Among possible patterns:
-
-* some dissolve immediately
-* some persist briefly
-* some remain stable
-* some become reusable
-
-Persistence is not guaranteed by possibility.
-
-Therefore:
-
-Reality contains mechanisms that select among possible patterns.
+A smaller subset become reusable.
 
 ---
 
-## O3. Stable Distinctions Are Fundamental
+## 1.3 Components
 
-A distinction exists only when it can be repeatedly identified and reused.
+A component is a pattern that can function as a reusable participant in a larger architecture.
+
+The central problem is therefore:
+
+> What distinguishes a reusable component from an arbitrary stable pattern?
+
+---
+
+# 2. Composable Entities
+
+## Definition
+
+A composable entity is a pattern satisfying:
+
+1. admissibility,
+2. distinction,
+3. closure,
+4. interface.
+
+These conditions are jointly necessary.
+
+Failure of any condition destroys composability.
+
+---
+
+# 3. Admissibility
+
+## Definition
+
+A pattern is admissible when it is dynamically realizable within the governing constraints of a system.
+
+Let
+
+[
+C
+]
+
+denote the constraint set.
+
+Then an entity
+
+[
+e
+]
+
+is admissible iff
+
+[
+e \in A(C)
+]
+
+where
+
+[
+A(C)
+]
+
+is the set of realizable structures under those constraints.
+
+Admissibility does not create existence.
+
+Admissibility determines which structures may persist and participate as components.
 
 Examples:
 
-* atoms
-* molecules
-* memories
-* words
-* organisms
-* corporations
-
-Without stable distinctions:
-
-* identity disappears
-* information disappears
-* representation disappears
-
-Therefore:
-
-Stable distinctions are the basic units from which higher-order organization is constructed.
+* atoms are admissible under physical law,
+* cells are admissible under chemistry,
+* corporations are admissible under legal systems.
 
 ---
 
-## O4. Persistence Is Not Sufficient
+# 4. Distinction
 
-Many stable patterns never become building blocks.
-
-Examples:
-
-* clouds
-* hurricanes
-* whirlpools
-* random traffic jams
-
-Persistence alone does not create composability.
-
-A reusable component requires additional structural properties.
-
----
-
-# The Four Conditions of Composability
-
----
-
-## C1. Admissibility
-
-A component must be admitted by the architectures of lower layers.
-
-Admissibility determines:
-
-* what may exist
-* what may persist
-* what may participate in interactions
-
-Atoms are admitted by physical law.
-
-Cells are admitted by chemistry.
-
-Corporations are admitted by legal systems.
-
-Without admissibility there is no viable component.
-
-Therefore:
-
-Admissibility creates existence.
-
----
-
-## C2. Distinction
+## Definition
 
 A component must be identifiable as a unit.
 
-A distinction creates:
+Formally, there must exist a recognition mapping
 
-* identity
-* addressability
-* recognition
-* reuse
+[
+D : P \rightarrow E
+]
 
-Examples:
+which assigns states to entities
 
-* an atom can be referenced
-* a file can be referenced
-* a person can be referenced
-* an institution can be referenced
+[
+E.
+]
 
-Without distinction there is no component to compose with.
+Distinction requires that repeated observations map to the same entity despite lower-level variation.
 
-Therefore:
+Thus distinction establishes:
 
-Distinction creates identity.
+* identity,
+* addressability,
+* reference,
+* reuse.
+
+Without distinction there is no entity available for composition.
 
 ---
 
-## C3. Closure
+# 5. Closure
 
-A component must possess sufficient internal closure to preserve its identity under interaction.
+## Definition
 
-Closure does not imply isolation.
+Closure is the ability of an entity to preserve its identity under admissible interaction.
 
-Closure implies organizational integrity.
+Let
+
+[
+e
+]
+
+be an entity.
+
+Let
+
+[
+N(e)
+]
+
+denote the set of admissible interactions affecting it.
+
+Closure exists when:
+
+[
+D(T(e,n)) = e
+]
+
+for sufficiently many
+
+[
+n \in N(e).
+]
+
+In words:
+
+after interaction, the entity remains recognizably the same entity.
+
+Closure is not isolation.
+
+Closure is identity preservation.
 
 Examples:
 
-Atoms maintain atomic structure.
-
-Cells maintain internal metabolism.
-
-Humans maintain biological organization.
-
-Institutions maintain organizational continuity.
-
-Without closure:
-
-* interactions destroy identity
-* persistence collapses
-* composability disappears
-
-Therefore:
+* atomic structure,
+* cellular homeostasis,
+* memory persistence,
+* organizational continuity.
 
 Closure creates robustness.
 
 ---
 
-## C4. Interface
+# 6. Interface
 
-A component must expose stable interaction points.
+## Definition
 
-Interfaces define:
+An interface is the subset of interactions through which an entity may affect or be affected by other entities.
 
-* how other entities may interact
-* what effects interactions may produce
-* which operations are admissible
+Let
+
+[
+I(e)
+]
+
+denote the admissible interaction set of entity
+
+[
+e.
+]
+
+Then
+
+[
+I(e)
+]
+
+defines:
+
+* available operations,
+* expected responses,
+* admissible couplings.
+
+An interface abstracts away internal implementation while preserving interactional behavior.
 
 Examples:
 
-Atoms expose bonding interactions.
-
-Bits expose read and write operations.
-
-Cells expose signaling mechanisms.
-
-Humans expose communication and action.
-
-Institutions expose rules, procedures, and authority structures.
-
-Without interfaces:
-
-interaction becomes impossible.
-
-Therefore:
+* chemical bonding,
+* cellular signaling,
+* language,
+* legal procedures,
+* software APIs.
 
 Interfaces create participation.
 
 ---
 
-# The Composability Principle
+# 7. Composability
 
-A pattern becomes a reusable component when it possesses:
+## Definition
 
-* admissibility
-* distinction
-* closure
-* interface
+Two entities
 
-Together these properties create composability.
+[
+e_1,e_2
+]
 
-Therefore:
+are composable when their interfaces are mutually compatible.
 
-Composable entities are patterns that can exist, be identified, preserve identity under interaction, and participate through stable interfaces.
+Define compatibility relation
+
+[
+R(e_1,e_2).
+]
+
+Then composition is possible iff
+
+[
+R(e_1,e_2)=1.
+]
+
+A composable architecture consists of entities whose interfaces admit repeated compatible interactions without destroying closure.
+
+Formally:
+
+[
+\text{Composability}
+====================
+
+A
+\cap
+D
+\cap
+C
+\cap
+I.
+]
 
 ---
 
-# Population Conditions
+# 8. Populations
 
-Composability alone does not create a layer.
+A component alone does not create a layer.
 
-A single component cannot generate an architecture.
-
-Higher-order organization requires populations of components.
+Layer formation requires populations.
 
 ---
 
-## P0. Multiplicity
+## P1. Multiplicity
 
-A reusable component must exist in sufficient numbers for composition to occur.
+Let
+
+[
+|E|
+]
+
+be the number of composable entities.
+
+When
+
+[
+|E| = 1
+]
+
+architecture formation is impossible.
+
+Composition requires multiple participants.
+
+---
+
+## P2. Interoperability
+
+Interoperability is compatibility across many entities.
+
+Define
+
+[
+R(e_i,e_j)
+]
+
+as interface compatibility.
+
+Interoperability increases with the density of compatible pairings.
+
+[
+\text{Interop}
+==============
+
+\frac{
+\sum R(e_i,e_j)
+}{
+N(N-1)
+}.
+]
+
+High interoperability enables large-scale architectures.
+
+---
+
+## P3. Interaction Density
+
+Let
+
+[
+\lambda
+]
+
+denote expected interaction frequency.
+
+Architecture formation requires:
+
+[
+\lambda > \lambda_c
+]
+
+for some critical threshold.
+
+Below threshold interactions remain sporadic.
+
+Above threshold sustained composition becomes possible.
+
+---
+
+## P4. Redundancy
+
+Many higher-level entities are statistically stabilized populations rather than single lower-level objects.
 
 Examples:
 
-A single atom does not create chemistry.
+* bits,
+* organisms,
+* institutions,
+* markets.
 
-A single transistor does not create computation.
+Let
 
-A single symbol does not create language.
+[
+r
+]
 
-A single human does not create society.
+denote redundancy.
 
-Therefore:
+Increasing
 
-Architecture requires populations.
+[
+r
+]
 
----
+reduces sensitivity to lower-level fluctuations.
 
-## P1. Interoperability
-
-Components must share sufficiently compatible interfaces.
-
-Interfaces alone are insufficient.
-
-Interfaces must align.
-
-Examples:
-
-Literacy enables symbols to interoperate.
-
-Shared protocols enable computers to interoperate.
-
-Genetic coding enables biological systems to interoperate.
-
-Contract law enables institutions to interoperate.
-
-Without interoperability:
-
-composition remains local.
-
-Large-scale architectures cannot emerge.
-
-Therefore:
-
-Interoperability creates scalable composition.
+Reliability therefore scales with redundancy.
 
 ---
 
-## P2. Population Density
+# 9. Layer Formation
 
-Composable entities must exist at sufficient density for interactions to occur reliably.
+## Definition
 
-Sparse populations rarely compose.
+A layer is a state space whose primary participants are composable entities.
 
-Dense populations generate architectures.
+A layer exists when:
 
-Examples:
+1. composable entities exist,
+2. interoperable populations exist,
+3. interaction density exceeds threshold,
+4. compositions become reusable.
 
-Chemical reactions require sufficient molecular encounters.
-
-Languages require communities of speakers.
-
-Markets require communities of participants.
-
-Therefore:
-
-Population density enables sustained composition.
+Layer formation is therefore a phase transition in composability.
 
 ---
 
-## P3. Redundancy and Statistical Stability
+# 10. Minimal Viable Entities
 
-Many composable entities emerge only when lower-level fluctuations are averaged across large populations.
+Every layer possesses entities that function as its smallest reusable participants.
 
-Examples:
-
-Bits are implemented through large populations of charge carriers.
-
-Organisms are implemented through vast populations of molecules.
-
-Institutions are implemented through populations of individuals.
-
-The component often exists as a statistically stable distinction rather than a single lower-level object.
-
-Therefore:
-
-Reliable composability frequently requires redundancy.
-
----
-
-# Minimal Viable Distinctions
-
----
-
-## M1. Every Layer Possesses Minimal Composable Units
-
-Every viable layer contains entities that function as the smallest reusable participants within that layer.
-
-Examples:
-
-| Layer             | Minimal Viable Distinction |
-| ----------------- | -------------------------- |
-| Chemistry         | Atom                       |
-| Molecular Systems | Molecule                   |
-| Genetics          | Gene                       |
-| Computation       | Bit                        |
-| Language          | Symbol                     |
-| Society           | Agent                      |
-| Institutions      | Role or Legal Entity       |
-
-These distinctions need not be physically minimal.
+These need not be physically minimal.
 
 They are operationally minimal.
 
-They represent the smallest units capable of participating in the admissible interactions of the layer.
+Examples include:
+
+| Layer             | Minimal Viable Entity |
+| ----------------- | --------------------- |
+| Chemistry         | Atom                  |
+| Molecular Systems | Molecule              |
+| Genetics          | Gene                  |
+| Computation       | Bit                   |
+| Language          | Symbol                |
+| Institutions      | Legal Entity          |
+
+A minimal viable entity is the smallest distinction capable of participating in the admissible operations of its layer.
 
 ---
 
-## M2. Layer Identity Is Defined By Participation
+# 11. Emergence
 
-An entity belongs to a layer when it can participate in the admissible operations of that layer.
+## E1. Emergence as Entity Formation
 
-An atom participates in chemistry.
-
-A bit participates in computation.
-
-A symbol participates in language.
-
-A legal entity participates in institutions.
-
-Participation defines membership.
-
----
-
-## M3. Loss of Participation Destroys Layer Identity
-
-A component ceases to exist within a layer when it can no longer perform the operations that define participation.
+Emergence occurs when lower-level dynamics produce new composable entities.
 
 Examples:
 
-A dead organism loses biological agency.
+* atoms,
+* molecules,
+* cells,
+* concepts,
+* institutions.
 
-A corrupted bit loses computational identity.
+Emergence is not merely complexity.
 
-A dissolved corporation loses institutional identity.
-
-Material continuity alone does not preserve layer identity.
-
-Operational participation does.
-
----
-
-# Emergence
+Emergence is the creation of reusable participants.
 
 ---
 
-## E1. Emergence Occurs When New Composable Units Appear
+## E2. Emergence as State-Space Expansion
 
-A new layer emerges when lower-layer patterns become sufficiently composable that they can function as reusable entities.
+Let
 
-Atoms become reusable.
+[
+S_n
+]
 
-Chemistry emerges.
+be the reachable state space of layer
 
-Molecules become reusable.
+[
+n.
+]
 
-Biology emerges.
+When new composable entities appear:
 
-Neural representations become reusable.
+[
+S_{n+1}
 
-Cognition emerges.
+>
 
-Symbols become reusable.
+S_n.
+]
 
-Language emerges.
-
-Roles become reusable.
-
-Institutions emerge.
-
-Therefore:
-
-Emergence is the appearance of new composable distinctions.
+New entities generate new configurations, interactions, and architectures.
 
 ---
 
-## E2. Emergence Requires Interoperable Populations
+## E3. Emergence as Abstraction
 
-The appearance of a single composable entity is insufficient.
+A higher layer emerges when interactions among lower-level entities become describable through stable higher-level interfaces.
 
-A layer emerges only when many compatible entities become available for systematic interaction.
+Examples:
 
-The first atom did not create chemistry.
+* chemistry over quantum mechanics,
+* biology over chemistry,
+* language over neural activity,
+* institutions over individuals.
 
-The first symbol did not create language.
-
-The first transistor did not create computation.
-
-Layer formation requires critical mass.
-
-Therefore:
-
-Emergence is a population phenomenon.
+Emergence therefore creates new abstraction boundaries.
 
 ---
 
-## E3. Emergence Creates New State Spaces
+# 12. Capability
 
-Once composable entities exist, they generate new possible configurations.
-
-Atoms create chemistry.
-
-Symbols create language.
-
-Institutions create governance.
-
-Therefore:
-
-New composable units generate new state spaces.
-
----
-
-## E4. Emergence Creates New Interfaces
-
-Higher layers become describable through their own interfaces.
-
-Chemistry abstracts from quantum mechanics.
-
-Biology abstracts from chemistry.
-
-Language abstracts from neural activity.
-
-Institutions abstract from individuals.
-
-Therefore:
-
-Emergence creates abstraction boundaries.
-
----
-
-# Capability
-
----
-
-## A1. Capability Is Structured Reachability
-
-Capability is not the number of possible states.
-
-Capability is the set of outcomes that may be reliably reached through composable entities and admissible interactions.
-
-Therefore:
+## Definition
 
 Capability is structured reachability.
 
----
+Let
 
-## A2. Composability Generates Capability
+[
+G
+]
 
-Capabilities increase when reusable components can be combined into larger architectures.
+be a set of target states.
 
-A single transistor possesses limited capability.
+Capability is the subset of
 
-Composable bits create computers.
+[
+G
+]
 
-A single human possesses limited capability.
+that can be reliably reached through admissible compositions.
 
-Composable institutions create civilizations.
+[
+\text{Capability}
+=================
 
-Therefore:
+\text{Reachable}(G).
+]
 
-Capability grows through composability.
+Capability increases when composable entities can be systematically recombined.
 
----
+Thus:
 
-## A3. Interface Quality Limits Capability
-
-Capability depends upon the richness and reliability of interfaces.
-
-Poor interfaces constrain composition.
-
-Rich interfaces enable higher-order organization.
-
-Therefore:
-
-Interface architecture limits achievable capability.
-
----
-
-## A4. Interoperability Accelerates Capability Growth
-
-When compatible components can be reused across architectures, capability expands rapidly.
-
-Standardized interfaces multiply compositional opportunities.
-
-Examples:
-
-* language
-* writing
-* TCP/IP
-* legal contracts
-* DNA
-
-Therefore:
-
-Interoperability amplifies capability growth.
+[
+\text{Capability}
+\propto
+\text{Composability}
+\times
+\text{Interoperability}.
+]
 
 ---
 
-# Knowledge
+# 13. Knowledge
+
+Understanding consists of identifying:
+
+* distinctions,
+* closures,
+* interfaces,
+* admissibility conditions,
+* interoperability constraints.
+
+Scientific progress frequently corresponds to discovering the construction rules that permit composable entities to exist.
 
 ---
 
-## K1. Understanding Discovers Composable Structures
+# 14. Recursive Principle
 
-Explanatory progress often reveals:
-
-* distinctions
-* closures
-* interfaces
-* admissibility conditions
-* interoperability constraints
-
-Understanding identifies reusable structures within reality.
-
----
-
-## K2. Science Discovers Layer Construction Rules
-
-Scientific progress often reveals:
-
-* why entities remain distinct
-* how closure is maintained
-* which interfaces exist
-* how composability arises
-* how interoperability is achieved
-
-Therefore:
-
-Science uncovers the construction principles of layered reality.
-
----
-
-# Recursive Principle
-
-Every observation is itself a composable entity.
+Every explanation is itself a composable entity.
 
 Including:
 
-* perceptions
-* memories
-* concepts
-* languages
-* institutions
-* scientific theories
-* explanations
-* this principle itself
+* memories,
+* concepts,
+* languages,
+* institutions,
+* scientific theories.
 
-For every entity ask:
+For any entity ask:
 
-What admits it?
-
-What distinguishes it?
-
-What maintains its closure?
-
-What interfaces does it expose?
-
-How does it interoperate?
-
-How many compatible instances exist?
-
-What larger structures can compose from it?
+1. What constraints admit it?
+2. What distinguishes it?
+3. What preserves its identity?
+4. What interfaces does it expose?
+5. With what does it interoperate?
+6. What architectures can be constructed from it?
 
 ---
 
@@ -662,12 +650,10 @@ Reality develops through the formation of composable entities.
 
 A pattern becomes a reusable building block when it is admissible, distinguishable, sufficiently closed to preserve its identity, and equipped with stable interfaces.
 
-Large-scale architectures emerge when populations of such entities become sufficiently numerous, interoperable, and densely connected to support systematic composition.
+Higher-order layers emerge when interoperable populations of such entities become sufficiently dense to support sustained composition.
 
-Composable entities generate higher-order architectures.
+Emergence is the appearance of new composable entities.
 
-Higher-order architectures generate new state spaces.
+Layer formation is the accumulation of reusable compositions.
 
-New state spaces generate new composable entities.
-
-Knowledge advances through discovering the composability architectures that make layered reality possible.
+Knowledge advances through discovering the principles that make composability possible.
