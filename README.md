@@ -1,6 +1,6 @@
 # The Composability Architecture Principle
 
-## A Structural Theory of Admissibility, Distinction, Closure, Interface, and Layer Formation
+## A Structural Theory of Admissibility, Distinction, Closure, Interface, Interoperability, and Layer Formation
 
 ---
 
@@ -8,7 +8,7 @@
 
 Not every stable pattern becomes a building block.
 
-Many patterns persist briefly.
+Many patterns persist.
 
 Few become reusable components.
 
@@ -18,11 +18,15 @@ Waves persist.
 
 Turbulence persists.
 
+Traffic jams persist.
+
+Whirlpools persist.
+
 Yet chemistry is not built from clouds.
 
 Biology is not built from waves.
 
-Science is not built from turbulence.
+Civilizations are not built from whirlpools.
 
 By contrast:
 
@@ -42,13 +46,13 @@ The central question is therefore:
 
 Persistence alone is insufficient.
 
-To participate in larger structures, a pattern must possess properties that permit reliable composition.
+Many stable patterns never become reusable.
+
+To participate in larger architectures, a pattern must possess structural properties that permit reliable composition.
 
 The central claim of this principle is:
 
-> Reality develops through the formation of composable entities. A pattern becomes a reusable building block when it is admissible, distinguishable, sufficiently closed to preserve its identity, and equipped with stable interfaces through which other entities may reliably interact with it.
-
-Higher-order layers emerge when such components become available for systematic composition.
+> Reality develops through the formation of composable entities. A pattern becomes a reusable building block when it is admissible, distinguishable, sufficiently closed to preserve its identity, and equipped with stable interfaces through which other entities may reliably interact with it. Higher-order layers emerge when sufficiently large populations of interoperable components become available for systematic composition.
 
 ---
 
@@ -122,6 +126,7 @@ Many stable patterns never become building blocks.
 Examples:
 
 * clouds
+* hurricanes
 * whirlpools
 * random traffic jams
 
@@ -153,6 +158,10 @@ Corporations are admitted by legal systems.
 
 Without admissibility there is no viable component.
 
+Therefore:
+
+Admissibility creates existence.
+
 ---
 
 ## C2. Distinction
@@ -177,7 +186,7 @@ Without distinction there is no component to compose with.
 
 Therefore:
 
-Distinction creates component identity.
+Distinction creates identity.
 
 ---
 
@@ -239,7 +248,7 @@ interaction becomes impossible.
 
 Therefore:
 
-Interfaces create controllable participation.
+Interfaces create participation.
 
 ---
 
@@ -257,6 +266,108 @@ Together these properties create composability.
 Therefore:
 
 Composable entities are patterns that can exist, be identified, preserve identity under interaction, and participate through stable interfaces.
+
+---
+
+# Population Conditions
+
+Composability alone does not create a layer.
+
+A single component cannot generate an architecture.
+
+Higher-order organization requires populations of components.
+
+---
+
+## P0. Multiplicity
+
+A reusable component must exist in sufficient numbers for composition to occur.
+
+Examples:
+
+A single atom does not create chemistry.
+
+A single transistor does not create computation.
+
+A single symbol does not create language.
+
+A single human does not create society.
+
+Therefore:
+
+Architecture requires populations.
+
+---
+
+## P1. Interoperability
+
+Components must share sufficiently compatible interfaces.
+
+Interfaces alone are insufficient.
+
+Interfaces must align.
+
+Examples:
+
+Literacy enables symbols to interoperate.
+
+Shared protocols enable computers to interoperate.
+
+Genetic coding enables biological systems to interoperate.
+
+Contract law enables institutions to interoperate.
+
+Without interoperability:
+
+composition remains local.
+
+Large-scale architectures cannot emerge.
+
+Therefore:
+
+Interoperability creates scalable composition.
+
+---
+
+## P2. Population Density
+
+Composable entities must exist at sufficient density for interactions to occur reliably.
+
+Sparse populations rarely compose.
+
+Dense populations generate architectures.
+
+Examples:
+
+Chemical reactions require sufficient molecular encounters.
+
+Languages require communities of speakers.
+
+Markets require communities of participants.
+
+Therefore:
+
+Population density enables sustained composition.
+
+---
+
+## P3. Redundancy and Statistical Stability
+
+Many composable entities emerge only when lower-level fluctuations are averaged across large populations.
+
+Examples:
+
+Bits are implemented through large populations of charge carriers.
+
+Organisms are implemented through vast populations of molecules.
+
+Institutions are implemented through populations of individuals.
+
+The component often exists as a statistically stable distinction rather than a single lower-level object.
+
+Therefore:
+
+Reliable composability frequently requires redundancy.
 
 ---
 
@@ -356,7 +467,27 @@ Emergence is the appearance of new composable distinctions.
 
 ---
 
-## E2. Emergence Creates New State Spaces
+## E2. Emergence Requires Interoperable Populations
+
+The appearance of a single composable entity is insufficient.
+
+A layer emerges only when many compatible entities become available for systematic interaction.
+
+The first atom did not create chemistry.
+
+The first symbol did not create language.
+
+The first transistor did not create computation.
+
+Layer formation requires critical mass.
+
+Therefore:
+
+Emergence is a population phenomenon.
+
+---
+
+## E3. Emergence Creates New State Spaces
 
 Once composable entities exist, they generate new possible configurations.
 
@@ -372,7 +503,7 @@ New composable units generate new state spaces.
 
 ---
 
-## E3. Emergence Creates New Interfaces
+## E4. Emergence Creates New Interfaces
 
 Higher layers become describable through their own interfaces.
 
@@ -394,7 +525,7 @@ Emergence creates abstraction boundaries.
 
 ---
 
-## P1. Capability Is Structured Reachability
+## A1. Capability Is Structured Reachability
 
 Capability is not the number of possible states.
 
@@ -406,7 +537,7 @@ Capability is structured reachability.
 
 ---
 
-## P2. Composability Generates Capability
+## A2. Composability Generates Capability
 
 Capabilities increase when reusable components can be combined into larger architectures.
 
@@ -424,7 +555,7 @@ Capability grows through composability.
 
 ---
 
-## P3. Interface Quality Limits Capability
+## A3. Interface Quality Limits Capability
 
 Capability depends upon the richness and reliability of interfaces.
 
@@ -435,6 +566,26 @@ Rich interfaces enable higher-order organization.
 Therefore:
 
 Interface architecture limits achievable capability.
+
+---
+
+## A4. Interoperability Accelerates Capability Growth
+
+When compatible components can be reused across architectures, capability expands rapidly.
+
+Standardized interfaces multiply compositional opportunities.
+
+Examples:
+
+* language
+* writing
+* TCP/IP
+* legal contracts
+* DNA
+
+Therefore:
+
+Interoperability amplifies capability growth.
 
 ---
 
@@ -450,6 +601,7 @@ Explanatory progress often reveals:
 * closures
 * interfaces
 * admissibility conditions
+* interoperability constraints
 
 Understanding identifies reusable structures within reality.
 
@@ -463,6 +615,7 @@ Scientific progress often reveals:
 * how closure is maintained
 * which interfaces exist
 * how composability arises
+* how interoperability is achieved
 
 Therefore:
 
@@ -495,6 +648,10 @@ What maintains its closure?
 
 What interfaces does it expose?
 
+How does it interoperate?
+
+How many compatible instances exist?
+
 What larger structures can compose from it?
 
 ---
@@ -504,6 +661,8 @@ What larger structures can compose from it?
 Reality develops through the formation of composable entities.
 
 A pattern becomes a reusable building block when it is admissible, distinguishable, sufficiently closed to preserve its identity, and equipped with stable interfaces.
+
+Large-scale architectures emerge when populations of such entities become sufficiently numerous, interoperable, and densely connected to support systematic composition.
 
 Composable entities generate higher-order architectures.
 
